@@ -1,0 +1,5 @@
+:fullscreen::-webkit-scrollbar,
+html:has(:fullscreen)::-webkit-scrollbar,
+html:fullscreen::-webkit-scrollbar {
+  display: none;
+}
